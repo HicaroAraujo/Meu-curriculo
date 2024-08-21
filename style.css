@@ -1,0 +1,271 @@
+* {
+
+    padding: 0px;
+    /* determinei que não vai ter distâcia dos conteúdos e suas bordas entre todas as  */
+    margin: 0 auto;
+    /*  centraliza a div conteirner */
+    box-sizing: border-box;
+    /* determinou que a acupação dos elementos deverão ser calculada inclundo a largura, o padding e as bordas  */
+    font-family: 'Segoe UI', sans-serif;
+    /* coloquei este tipo de font mais próxima do layout do curriculo que clonamos  */
+    font-weight: 300;
+    /*  coloquei este peso da font para diminuir o peso de dela. Assim, dou mais destaque aos titulos  */
+     
+}
+
+
+body {
+    background-color: lightgray;
+    /* cor de fundo */
+
+}
+
+.container {
+    height: 1350px;
+    width: 65%;
+    /*  tamanho da largura e altura do conteiner*/
+     
+     
+}
+
+.left {
+    width: 50%;
+    /* largura  que a caixa da esquerda vai ocupar */
+    height: 100%;
+    /* altura da caixa da esquerda */
+    background-color: black;
+    /* cor de fundo da caixa da esquerda  */
+    float: left;
+    /* terie do fluxo padrão e coloquei a div para a esquerda  */
+    color: white;
+    /* cor dos textos da caixa da esquerda */
+    padding: 50px;
+    /* alterei o pedding que pegava todas caixas para 50px para apresentar um layaout com mais qualidade  */
+    /* agora ele fica com os conteúdos em uma distância de 50px de suas bordas  */
+   
+}
+
+.right {
+    width: 50%;
+    /* largura que a divisão da divisão da direita  */
+    height: 100%;
+    /* altura da caixa da direita */
+    background-color: white;
+    /* cor de fundo da caixa da direita  */
+    float: right;
+    /* terie do fluxo padrão e puxei a div para a direita  */
+    padding: 50px;
+    /* alterei o pedding que pegava todas caixas para 50px para apresentar um layaout com mais qualidade  */
+    /* agora ele fica com os conteúdos em uma distância de 50px de suas bordas  */
+   
+}
+
+.profile img {
+    width: 280px;
+    height: 280px; 
+    /* coloquei a largura do mesmo tamanho da altura para permetir  a que nossa borda fique bem  redonda */
+    margin-left:  20%; /* coloquei a borda da imagem 20% de doistância de sua margin da esquerda */
+    margin-top: 5%;/* coloquei uma distância de 5% entre a borda da minha imagem e margim de cima */
+    border-radius: 50%; /*coloquei a borda da imagem redonta  */
+    border: 5px solid lightgreen; /*  alteriei tamanho , tipo e cor para verde claro da borda da imagem  */
+    
+}
+
+h1 { 
+    font-size:400;
+    /* alteirei o tamanho da font para dar destaque ao meu nome */
+    margin-top: 20px ;
+    /* puxei a margim do me nome para que descolasse um pouco da borda da imagem */
+    
+}
+
+.profile h2 {
+    color: lightgreen;
+    /* deixou meu h2 com estilo de cor verde  */
+    font-style: italic;
+    /* coloquei os titutulos h2 em itálico  */
+    font-weight: 400;
+    /* alterando o peso da font para dar mais destaque a este titulo*/
+    font-size: 20px;
+    /* tamanho da fonte  */
+    margin: 12px 0;
+    /* coloquei a margin do top 12px de disitância do h1 e o 0 colocou conteúdo na a bordar da esquerda   */
+}
+
+.edu {
+    margin-top: 30px;
+    /* ficou 30px de distância a margin do conteúdo e a margin da caixa  */
+
+
+}
+
+.edu h2 {
+    color: lightgreen;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.edu h3 {
+    font-style: italic;
+    /* coloque em italico a font dos meus h3  */
+    font-weight:400;
+    /* alteri o peso da font para poder dar destaques aos meus h3 */
+    font-size: 20px;
+    /* tamanho da minha font dos h3 ficou de 20px*/
+    margin: 6px;
+    /* margin de baixo,da direita e da esquerda alteradas para 6 px de distancia da borda*/
+
+}
+
+.contatos {
+    margin-top: 50px;
+    /* margim de cima do contatos dica numa distancia de 50px da borda  */
+}
+
+.contatos h2 {
+    color: lightgreen;
+    /* cor verde para o titulo h2 */
+}
+
+.contatos p {
+    margin-top: 20px;
+    /*  a marigin de cima dos parágrafo fica com distancia de 20 px entre a borda do de cima   */
+    margin-bottom: 5%; 
+   /*  a margin de baixo fica com 5% dos outros elementos (com isso a regra de  margin-top dos parágrafos funcionara só para primeiro parágrafo )*/
+}
+
+i {
+
+    font-size: 20px;
+    /* coloquei  o tamanho da font dos ìcones para 20px */
+    color: lightgreen;
+    /* alteriei a cor dos ìcone para verde */
+    margin-right: 20px;
+    /* coloquei uma distancia de 20px entre os icones e os textos dos parágrafos */
+
+}
+
+a {
+    color: lightgreen;
+    /* estou dizendo quero que o texto para clicar do lick será verde claro */
+}
+/* -----> fim da div class= "left" <----*/
+
+/*----> inicio da div class "right" <------ */
+
+.exper {
+    margin-top: 80px;
+    /* aqui coloquei uma distância de 80px da margin de cima em relação a sua borda */
+    
+
+}
+
+.exper li {
+    margin-left: 30px;
+    /* puxei 30px da margin da esquerda em relação a sua borda  */
+    margin-top: 16px;
+    /* distancia de 16px da marginde cima dos li */
+    margin-bottom: 16px;
+    /* coloquei a distancia de 16px para margin de baixo para o ultimo elemnto li poder se distânciar da borda  */
+
+}
+
+.exper hr,
+.habil hr {
+    margin: 10px 0;
+    /* coloquei uma margin-top de 10px para a quebra de linha hr ficar distante do h2 */
+    /* e o 0 é para a margin-da diteria ficar colcada com a borda */
+    margin-left: -50px;
+    /*  foi usado para puxar o hr 50px para fora da margin */
+}
+
+.exper h3,
+.habil h3 {
+    font-weight: 400;
+    /* alterei o  peso da fonte para dar mais destaque a este titulo*/
+    font-style: italic;
+    /* coloquei este titulo em itálico para apresentção de um melhor layout  */
+    margin-bottom: 10px;
+    /* esta dando um espaço entre o h3 e os elemtos de baixo dele  */
+    text-decoration: underline;
+    /* aqui eu coloquei o titulo sublinhado nos dois h3 do lado direito */
+}
+
+.habil ul {
+    margin-bottom: 30px;
+    /* esta dando uma distância de 30px entre as ul da habilidade */
+
+}
+
+.bar {
+    margin-left: 30px;
+    /* puxei a marginda esquerda da barra 30px de distancia de sua borda  */
+    height: 16px;
+    /* altura  da barra de progresso  */
+    width: 30%;
+    /* largura da barra de progresso  */
+    border: 1px solid green;
+    /* tamanho, tipo, e cor da borda da barra progresso  */
+
+
+}
+
+.progress-10 {
+   
+    width: 10%;
+    /* esta colocando que dentro da barra quero utilizar apena 10% do espaço da largura  */
+    height: 100%;
+    /* ocupa todo o espaço da altura de dentro da barra  */
+    background-color: lightgreen;
+    /* cor de fundo para verde de dentro da barra */
+    margin-left: 0px;
+    /* puxei para a esquerda, para o progresso não ficar centralizado*/
+}
+
+.progress-20 {
+    width: 20%;/* esta colocando que dentro da barra quero utilizar apena 20% do espaço da largura  */
+    height: 100%;/* ocupa todo o espaço da altura de dentro da barra  */
+    background-color: lightgreen;
+    /* cor de fundo para verde de dentro da barra */
+    margin-left: 0px;/* puxei para a esquerda, para o progresso não ficar centralizado*/
+}
+
+
+li {
+    margin-left: 30px;
+    /* puxei 30px da margin esquerda dos Li em relação a sua borda  */
+    margin-top: 10px;
+    /* esta com a margin de 10px de distancia em relação ao elemento de cima  */
+    margin-bottom: 10px;
+    /* esta com a margin de 10px de distancia em relação ao elemento de cima  */
+}
+
+
+.ball {
+    height: 20px;
+    width: 20px;
+    /* coloquei altura e largura do mesmo tamanho para que depois a borda fique bem redonda */
+    background-color: lightgreen;
+    /* estou dizendo que a cor do fundo da bola será verde claro */
+    border-radius: 100px;
+
+    display: inline-block;
+    /* permite que um fique do lado do do conteudo */
+}
+
+.ball2 {
+    height: 20px;
+    width: 20px;
+    /* coloquei altura e largura do mesmo tamanho para que depois a borda fique bem redonda */
+    border: 1px solid lightgreen;
+    /* estou dizendo que a borda da bola vai ficar verde claro */
+    border-radius: 100px;
+    /* estou dizendo que o circulo será 100% redondo  */
+
+    display: inline-block;
+    /* permite que um fique do lado do do conteudo */
+}
+
+
+/* fim da div class "right" */
